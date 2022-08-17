@@ -1,0 +1,13 @@
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.icon {
+    width: 16px;
+    height: 16px;
+}
+
+.todo-item.done > .todo-text {
+    text-decoration: line-through;
+}
